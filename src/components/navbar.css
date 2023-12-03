@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+}
+
+.Drops1 {
+  font-size: 25px;
+  transform: translate(-700px, -45rem);
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  color: rgb(57, 46, 46);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+}
+
+.nav-links li {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.hero {
+  text-align: center;
+  margin-top: 15%;
+}
+.hero h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.overlay-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.overlay-links li {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    margin-left: 50px;
+    position: relative;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(255, 255, 255, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.0) 0px 30px 60px -30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+
+  .mobile-menu-icon {
+    color: white;
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .Drops1 {
+    font-size: 35px;
+  }
+
+  .overlay {
+    display: block;
+  }
+}
+
+
+.invisible {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(255, 255, 255, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.0) 0px 30px 60px -30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .invisible {
+    display: none;
+  }
+
+  ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+
+  .mobile-menu-icon {
+    color: white;
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+
+  .overlay {
+    display: block;
+  }
+}

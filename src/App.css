@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 0px 20px;
+}
+
+.nav-logo a {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 0;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+    text-align: center;
+  }
+}
+
+img {
+  width: 230px;
+  max-width: 100%;
+  height: auto;
+  
+  
+  
+}
+.nav-button {
+  background-color: #2bffaa;
+  color: #000000;
+  border: none;
+  font-size: 0.8rem;
+  border-radius: 60px;
+  padding: 10px 60px;
+  cursor: pointer;
+  height: 6vh;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 0;
+  }
+  
+  .nav-button {
+    margin-top: 30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  
+}
+
