@@ -95,17 +95,15 @@ body {
   }
   
   /* CSS pour changer la couleur du cercle en fonction de l'indice de revente */
-  .resell-circle-excellent {
-    background-color: rgb(104, 40, 104);
-  }
-  .resell-circle-bon {
+  
+  .resell-circle-courant {
     background-color: rgb(22, 241, 168);
   }
-  .resell-circle-moyen {
+  .resell-circle-insolite {
     background-color: orange;
   }
-  .resell-circle-mauvais {
-    background-color: red;
+  .resell-circle-rare {
+    background-color: rgb(144, 0, 255);
   }
     
     /* CSS pour placer les détails de chaque goutte à gauche de l'image */

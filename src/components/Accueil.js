@@ -9,10 +9,10 @@ const Accueil = () => {
         <img src={logo} alt="Logo secret-time" className="logo" />
       </div>
       <div className="description-container">
-        <h1>Bienvenue chez SECRET-TIME !</h1>
+        <h1>✨​ Bienvenue chez SECRET-TIME ! ✨​</h1>
         <br></br>
         <p><strong>
-          En tant que passionné de sneakers, je suis ravi de vous présenter ma collection unique et tendance. Chez SECRET-TIME, nous nous engageons à fournir des chaussures de qualité et à la pointe de la mode. Parcourez notre sélection et trouvez la paire parfaite pour compléter votre style.
+          En tant que passionné de sneakers, je suis ravi de vous présenter ma collection unique et tendance. Chez SECRET-TIME, nous nous engageons à fournir des chaussures de qualité et à la pointe de la mode. Parcourez notre sélection et trouvez la paire parfaite pour compléter votre style. 
           </strong></p>
       </div>
     </div>

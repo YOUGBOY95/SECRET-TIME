@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import Navbar from "./components/navbar"
 import Accueil from "./components/Accueil"
-import Stock from "./components/Stock"
+import Sneakers from "./components/Sneakers"
 import News from "./components/News"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
@@ -19,8 +19,8 @@ function App() {
           <Route path='/' components={Accueil} exact>
             <Accueil />
           </Route>
-          <Route path='/Stock' components={Stock} exact>
-            <Stock />
+          <Route path='/Sneakers' components={Sneakers} exact>
+            <Sneakers />
           </Route>
           <Route path='/News' components={News} exact>
             <News />
