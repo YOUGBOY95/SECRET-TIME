@@ -33,7 +33,7 @@ export const drops_data = [
   },
   {
     id: 5,
-    brandName: 'Air jordan 1 retro high union bephies beauty supply summer 96 (Taille 36.5)',
+    brandName: 'Air jordan 1 retro high union bephies beauty supply summer 96 (Taille 36)',
     modelName: 'Air jordan 1',
     resellIndex: 'INSOLITE',
     colorName: '#C8AD7F',
