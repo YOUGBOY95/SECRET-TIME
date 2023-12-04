@@ -28,8 +28,8 @@ const Navbar = () => {
           <Link to='/Sneakers' className='Sneakers'>
             <li><strong>SNEAKERS DISPONIBLE</strong></li>
           </Link>
-          <Link to='/News' className='News'>
-            <li><strong>NEWS</strong></li>
+          <Link to='/Avis' className='Avis'>
+            <li><strong>AVIS CLIENTS</strong></li>
           </Link>
           {/* Ajoutez la classe 'mobile-linktree-icon' seulement si le menu mobile est ouvert */}
           <li className={`linktree-icon-container ${mobileMenuOpen ? 'mobile-linktree-icon' : ''}`}>
@@ -53,12 +53,12 @@ const Navbar = () => {
               <Link to='/Sneakers' className='Sneakers'>
                 <li><strong>SNEAKERS DISPONIBLE</strong></li>
               </Link>
-              <Link to='/News' className='News'>
-                <li><strong>NEWS</strong></li>
+              <Link to='/Avis' className='Avis'>
+                <li><strong>AVIS CLIENTS</strong></li>
               </Link>
               <li className={`icon`}>
                 <a href="https://linktr.ee/_washing" target="_blank" rel="noopener noreferrer">
-                  <Icon icon="simple-icons:linktree" style={{ color: 'white' }} />
+                <Icon icon="simple-icons:linktree" style={{ color: 'white' }} />
                 </a>
               </li>
             </ul>

@@ -42,8 +42,7 @@ function App() {
          <p className="black-text">{drop.brandName}</p>
          <p className={`resell-index resell-index-${drop.resellIndex.toLowerCase()} bold`}>{drop.resellIndex}</p>
        </div>
-       <Icon
-  icon="octicon:share-24"
+       <Icon icon="material-symbols:favorite-outline"
   onClick={() => window.location.href = 'https://www.vinted.fr/member/78182834'}
   style={{ fontSize: '24px', cursor: 'pointer' }}
 />
@@ -52,10 +51,10 @@ function App() {
      
         ))}
       </div>
-      <div className="texte-drops">
-  <strong>| SNEAKERS HYPED 🔥 |</strong>
-</div>
-
+      
+<section className="texte-drops">
+        <h1> SNEAKERS ​🔥​</h1>
+      </section>
 
       <HammerGesture refElement={dropListRef} />
     </div>
