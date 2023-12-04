@@ -59,6 +59,10 @@ const Accueil = () => {
 </strong></p>
 <br></br>
 <p><strong>
+  Possibilité d'une remise en main propre sur Paris. 📍
+</strong></p>
+<br></br>
+<p><strong>
    Shipping dans toute l'Europe en double box sous 48h. 📦
 </strong></p>
 <br></br>
