@@ -43,15 +43,11 @@ const Accueil = () => {
           </strong></p>
           <br></br>
 <p><strong>
- Chez SECRET-TIME, nous nous engageons à fournir des chaussures de qualité et à la pointe de la mode. ✔️
+ Chez SECRET-TIME, nous nous engageons à fournir des sneakers 100% authentiques (facture sur demande). 🧾
 </strong></p>
 <br></br>
 <p><strong>
-   Parcourez notre sélection et trouvez la paire parfaite pour compléter votre style. 🤝
-</strong></p>
-<br></br>
-<p><strong>
-   Nos sneakers sont 100% authentiques (facture sur demande). 🧾
+   Parcourez notre sélection et trouvez la sneakers parfaite pour compléter votre style. 🤝
 </strong></p>
 <br></br>
 <p><strong>
