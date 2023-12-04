@@ -242,7 +242,7 @@ body {
 
       .bottom-text {
         position: fixed;
-        bottom: 25px;
+        bottom: 20px;
         width: 100%;
         text-align: center;
         color: #000000; /* Couleur du texte, ajustez selon votre design */
