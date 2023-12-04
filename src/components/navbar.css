@@ -15,7 +15,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  height: 7.5vh;
   box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
 }
 
@@ -35,12 +35,18 @@ li {
 
 .nav-links li {
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
   text-transform: capitalize;
+  transition: color 0.3s;
 }
+
+.nav-links li:hover {
+  color: #75bbc0;
+}
+
 .hero {
   text-align: center;
   margin-top: 15%;
@@ -180,4 +186,13 @@ button {
   .overlay {
     display: block;
   }
+}
+
+.linktree-icon-container {
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
+}
+
+.linktree-icon-container a:hover  {
+  color: #75bbc0;
 }

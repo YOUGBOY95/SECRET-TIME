@@ -3,6 +3,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
+import { Icon } from '@iconify/react';
 import logo from './Logo-st.png';
 
 const Navbar = () => {
@@ -30,6 +31,11 @@ const Navbar = () => {
           <Link to='/News' className='News'>
             <li><strong>NEWS</strong></li>
           </Link>
+          <li className="linktree-icon-container">
+          <a href="https://linktr.ee/_washing" target="_blank" rel="noopener noreferrer">
+          <Icon icon="simple-icons:linktree" />
+          </a>
+        </li>
         </ul>
 
         <button className='mobile-menu-icon' onClick={handleMobileMenuToggle}>

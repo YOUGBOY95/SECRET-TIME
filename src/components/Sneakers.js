@@ -45,7 +45,7 @@ function App() {
         ))}
       </div>
       <div className="texte-drops">
-  <strong></strong>
+  <strong>SNEAKERS 🔥</strong>
 </div>
       <HammerGesture refElement={dropListRef} />
     </div>
