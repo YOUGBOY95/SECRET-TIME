@@ -42,7 +42,11 @@ const Accueil = () => {
 </strong></p>
 <br></br>
 <p><strong>
-   Shipping dans toutes l'europe en double box sous 48h. 📦
+   Nos sneakers sont 100% authentiques (facture sur demande). 🧾
+</strong></p>
+<br></br>
+<p><strong>
+   Shipping dans toute l'Europe en double box sous 48h. 📦
 </strong></p>
 <br></br>
         </div>
