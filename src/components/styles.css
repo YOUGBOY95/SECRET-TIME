@@ -67,7 +67,7 @@ body {
 
   /* CSS pour styliser chaque élément de la liste de gouttes */
   .drop-item {
-    border: 2px solid #75bbc0;
+    border: 1px solid #000000;
     background-color: #ffffff;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
@@ -157,7 +157,7 @@ body {
     /* CSS pour ajouter un effet de survol sur chaque élément de la liste de gouttes */
     .drop-item:hover {
       transform: translateY(-0.25rem);
-      box-shadow: 0px 0px 12px #75bbc0;
+      box-shadow: 0px 0px 12px #000000;
     }
     
     .resell-buttons {
