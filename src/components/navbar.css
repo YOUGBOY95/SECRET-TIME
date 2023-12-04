@@ -188,11 +188,12 @@ button {
   }
 }
 
-.linktree-icon-container {
+.icon {
   color: rgb(255, 255, 255);
   transition: color 0.3s;
 }
 
-.linktree-icon-container a:hover  {
+.icon a:hover  {
   color: #75bbc0;
 }
+

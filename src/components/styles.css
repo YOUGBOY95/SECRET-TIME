@@ -81,9 +81,18 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 5.5rem;  
-    
+  
+    @media (max-width: 768px) {
+      /* Version mobile */
+      top: 4rem;
+    }
+  
+    @media (min-width: 769px) {
+      /* Version PC */
+      top: 6.5rem;
+    }
   }
+  
   
   .resell-circle {
     border-radius: 90%;
@@ -248,3 +257,4 @@ body {
 .bottom-text .underline {
   text-decoration: underline; /* Soulignement au survol */
 }
+

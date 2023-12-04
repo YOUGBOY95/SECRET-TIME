@@ -18,6 +18,8 @@ const Accueil = () => {
 
   const isMobile = window.innerWidth <= 768; // Détermine si l'écran est de taille mobile
 
+  const titleElement = isMobile ? "h3" : "h1";
+
   return (
     <div className="accueil-container">
       <div className="presentation-container">
@@ -27,7 +29,14 @@ const Accueil = () => {
           </div>
         )}
         <div className="description-container">
-          <h1>✨​ Bienvenue chez <span style={{ color: colors[colorIndex] }}>SECRET-TIME</span> ! ✨​</h1>
+          {React.createElement(
+            titleElement,
+            null,
+            <>
+              ✨ ​Bienvenue chez <span style={{ color: colors[colorIndex] }}>SECRET-TIME</span> ! ✨​
+            </>
+          )}
+          <br></br>
           <br></br>
           <p><strong>
             En tant que passionné de sneakers, je suis ravi de vous présenter ma collection unique et tendance. 👟

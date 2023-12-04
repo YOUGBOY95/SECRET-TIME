@@ -4,6 +4,7 @@ import "./styles.css";
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
+import { Icon } from '@iconify/react';
 import HammerGesture from './hammer.js';
 
 function App() {
@@ -41,12 +42,21 @@ function App() {
          <p className="black-text">{drop.brandName}</p>
          <p className={`resell-index resell-index-${drop.resellIndex.toLowerCase()} bold`}>{drop.resellIndex}</p>
        </div>
+       <Icon
+  icon="octicon:share-24"
+  onClick={() => window.location.href = 'https://www.vinted.fr/member/78182834'}
+  style={{ fontSize: '24px', cursor: 'pointer' }}
+/>
+
      </div>
+     
         ))}
       </div>
       <div className="texte-drops">
-  <strong>SNEAKERS 🔥</strong>
+  <strong>| SNEAKERS HYPED 🔥 |</strong>
 </div>
+
+
       <HammerGesture refElement={dropListRef} />
     </div>
   );

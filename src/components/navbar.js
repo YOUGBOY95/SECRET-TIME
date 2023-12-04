@@ -20,7 +20,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </Link>
         <h3 className='logo'><strong><strong></strong></strong></h3>
-        
+
         <ul className={mobileMenuOpen ? "nav-links-mobile invisible" : "nav-links"}>
           <Link to='/' className='Accueil'>
             <li><strong>ACCUEIL</strong></li>
@@ -31,11 +31,13 @@ const Navbar = () => {
           <Link to='/News' className='News'>
             <li><strong>NEWS</strong></li>
           </Link>
-          <li className="linktree-icon-container">
-          <a href="https://linktr.ee/_washing" target="_blank" rel="noopener noreferrer">
-          <Icon icon="simple-icons:linktree" />
-          </a>
-        </li>
+          {/* Ajoutez la classe 'mobile-linktree-icon' seulement si le menu mobile est ouvert */}
+          <li className={`linktree-icon-container ${mobileMenuOpen ? 'mobile-linktree-icon' : ''}`}>
+            <a href="https://linktr.ee/_washing" target="_blank" rel="noopener noreferrer">
+              {/* Ajoutez la propriété style pour définir la couleur de l'icône Linktree en blanc */}
+              <Icon icon="simple-icons:linktree" style={{ color: 'white' }} />
+            </a>
+          </li>
         </ul>
 
         <button className='mobile-menu-icon' onClick={handleMobileMenuToggle}>
@@ -54,6 +56,11 @@ const Navbar = () => {
               <Link to='/News' className='News'>
                 <li><strong>NEWS</strong></li>
               </Link>
+              <li className={`icon`}>
+                <a href="https://linktr.ee/_washing" target="_blank" rel="noopener noreferrer">
+                  <Icon icon="simple-icons:linktree" style={{ color: 'white' }} />
+                </a>
+              </li>
             </ul>
           </div>
         )}
