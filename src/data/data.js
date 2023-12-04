@@ -9,19 +9,19 @@ export const drops_data = [
   },
   {
     id: 2,
-    brandName: 'Campus OOs dark green (Taille 36)',
-    modelName: 'Campus',
-    resellIndex: 'COURANT',
-    colorName: '#006400',
-    imagePath: '/images/campus_OOS_dark_green.png',
-  },
-  {
-    id: 3,
     brandName: 'Campus OOs black gum (Taille 36)',
     modelName: 'Campus',
     resellIndex: 'COURANT',
     colorName: '#000000',
     imagePath: '/images/campus_OOS_black gum.png',
+  },
+  {
+    id: 3,
+    brandName: 'Campus OOs dark green (Taille 36)',
+    modelName: 'Campus',
+    resellIndex: 'COURANT',
+    colorName: '#006400',
+    imagePath: '/images/campus_OOs_dark green.png',
   },
   {
     id: 4,
