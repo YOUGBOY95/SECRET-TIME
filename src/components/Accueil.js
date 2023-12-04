@@ -16,19 +16,23 @@ const Accueil = () => {
     return () => clearInterval(intervalId);
   }, []); // Le tableau vide [] assure que cette effectuation ne se produit qu'une seule fois lors du montage initial du composant
 
+  const isMobile = window.innerWidth <= 768; // Détermine si l'écran est de taille mobile
+
   return (
     <div className="accueil-container">
       <div className="presentation-container">
-        <div className="logo-container">
-          <img src={logo} alt="Logo secret-time" className="logo" />
-        </div>
+        {isMobile ? null : (
+          <div className="logo-container">
+            <img src={logo} alt="Logo secret-time" className="logo" />
+          </div>
+        )}
         <div className="description-container">
           <h1>✨​ Bienvenue chez <span style={{ color: colors[colorIndex] }}>SECRET-TIME</span> ! ✨​</h1>
           <br></br>
           <p><strong>
-   En tant que passionné de sneakers, je suis ravi de vous présenter ma collection unique et tendance. 👟
-</strong></p>
-<br></br>
+            En tant que passionné de sneakers, je suis ravi de vous présenter ma collection unique et tendance. 👟
+          </strong></p>
+          <br></br>
 <p><strong>
  Chez SECRET-TIME, nous nous engageons à fournir des chaussures de qualité et à la pointe de la mode. ✔️
 </strong></p>
@@ -44,9 +48,16 @@ const Accueil = () => {
         </div>
       </div>
 
+      <div className="container-fluid">
+  <div className="row">
+    <div className="col-12 text-center">
       <div className="bottom-text">
         <strong>SITE CRÉÉ PAR <span className="underline">SECRET - TIME</span> © 2023</strong>
       </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
