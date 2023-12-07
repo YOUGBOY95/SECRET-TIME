@@ -80,6 +80,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
   
     @media (max-width: 768px) {
       /* Version mobile */
@@ -110,6 +111,9 @@ body {
   .resell-circle-indisponible {
     background-color: orange;
   }
+  .resell-circle-bientôt {
+    background-color: rgb(192, 18, 211);
+  }
     
     /* CSS pour placer les détails de chaque goutte à gauche de l'image */
     .drop-details {
@@ -136,19 +140,7 @@ body {
   
     }
     
-    /* CSS pour changer la couleur de l'indice de revente en fonction de sa valeur */
-    .resell-index-excellent {
-      color: black;
-    }
-    .resell-index-bon {
-      color: black;
-    }
-    .resell-index-moyen {
-      color: black;
-    }
-    .resell-index-mauvais {
-      color: black;
-    }
+    
     
     /* CSS pour ajouter un effet de survol sur chaque élément de la liste de gouttes */
     .drop-item:hover {
@@ -168,7 +160,7 @@ body {
       border-radius: 5px;
       border: none;
       background-color: #f5f5f5;
-      color: #333;
+      color: #000000;
       margin-bottom: 20px;
       max-width: 100%;
       width: 200px;

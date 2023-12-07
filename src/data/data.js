@@ -2,7 +2,7 @@ export const drops_data = [
   {
     id: 1,
     brandName: 'Campus OOs grey (Taille 36)',
-    modelName: 'Campus 🌫️​',
+    modelName: 'Campus 🌪️​',
     resellIndex: 'DISPONIBLE',
     colorName: '#696969',
     imagePath: '/images/campus_OOS_grey.png',
@@ -51,7 +51,7 @@ export const drops_data = [
     id: 7,
     brandName: 'Air jordan 4 retro thunder (Taille 42)',
     modelName: 'Air jordan 4 ⚡',
-    resellIndex: 'INDISPONIBLE',
+    resellIndex: 'DISPONIBLE',
     colorName: '#FFD700',
     imagePath: '/images/Air jordan 4 retro thunder.png',
   },
@@ -63,4 +63,30 @@ export const drops_data = [
     colorName: '#C8AD7F',
     imagePath: '/images/Air jordan 1 retro high union bephies beauty supply summer 96.png',
   },
+  {
+    id: 10,
+    brandName: 'Yeezy Foam RNR Carbon (Taille 42)',
+    modelName: 'Yeezy Foam RNR Carbon 🌑',
+    resellIndex: 'DISPONIBLE',
+    colorName: '#696969',
+    imagePath: '/images/adidas Yeezy Foam RNR Carbon.png',
+  },
+  {
+    id: 11,
+    brandName: 'Yeezy Foam RNR MX Cinder (Taille 43)',
+    modelName: 'Yeezy Foam RNR MX Cinder 🌑',
+    resellIndex: 'DISPONIBLE',
+    colorName: '#C8AD7F',
+    imagePath: '/images/adidas Yeezy Foam RNR MX Cinder.png',
+  },
+  {
+    id: 12,
+    brandName: 'New Balance 550 Rich Paul Forever Yours (Taille 40.5)',
+    modelName: 'New Balance 550 Rich Paul Forever Yours 🌸​',
+    resellIndex: 'DISPONIBLE',
+    colorName: '#D8BFD8',
+    imagePath: '/images/New Balance 550 Rich Paul Forever Yours.png',
+  },
+  
+  
 ];
