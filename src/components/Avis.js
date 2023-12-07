@@ -31,8 +31,8 @@ const Avis = () => {
 
   return (
     <>
-      <section className="hero">
-        <h1> Avis Clients </h1>
+      <section className="texte-avis">
+        <h1> AVIS CLIENTS 🤝​ </h1>
       </section>
       <section className="avis-container">
         {avis.map((avis) => (

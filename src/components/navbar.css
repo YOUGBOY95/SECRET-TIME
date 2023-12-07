@@ -15,7 +15,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 7.5vh;
+  height: 8vh;
   box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
 }
 

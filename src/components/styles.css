@@ -3,7 +3,7 @@ body {
 }
 
 .color-#8C3A41 h3 {
-  color: #8C3A41;
+  color: #000000;
 }
 
 .resell-index.bold {
@@ -67,7 +67,6 @@ body {
 
   /* CSS pour styliser chaque élément de la liste de gouttes */
   .drop-item {
-    border: 1px solid #000000;
     background-color: #ffffff;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
@@ -199,7 +198,7 @@ body {
           position: absolute;
           top: 5.5rem;
           left:  2rem;
-          font-size: 25px;
+          font-size: 20px;
           color: #000000;
           }
         }
@@ -280,10 +279,10 @@ body {
 
 
 .avis-block {
-  border: 2px solid #75bbc0;
+  border: 2px solid #000000;
   border-radius: 10px;
   padding: 20px;
-  margin: 10px;
+  margin: 15px;
   max-width: 300px;
   text-align: center;
   background-color: #fff;
@@ -293,7 +292,7 @@ body {
 
 .avis-block:hover {
   transform: translateY(-0.25rem);
-  box-shadow: 0px 0px 12px #75bbc0;
+  box-shadow: 0px 0px 12px #000000;
 }
 
 .rating {
@@ -306,3 +305,45 @@ body {
 .star {
   margin-right: 2px;
 }
+
+
+
+.texte-avis {
+  text-align: center; /* Centre le texte à l'intérieur de la section */
+  margin-top: 20px;
+}
+
+/* Ajoutez des styles supplémentaires selon vos besoins */
+.texte-avis h1 {
+  font-size: 3em; /* Taille de police */
+  color: #000000; /* Couleur du texte */
+}
+
+@media only screen and (max-width: 767px) {
+  .texte-avis h1 {
+    font-size: 2em; /* Ajustez la taille de la police pour le mode mobile */
+  }
+}
+
+
+/* Sélectionne la barre de défilement */
+::-webkit-scrollbar {
+  width: 7px; /* Largeur de la barre de défilement */
+}
+
+/* Track (la piste) de la barre de défilement */
+::-webkit-scrollbar-track {
+  background: #ffffff; /* Couleur de fond de la piste */
+}
+
+/* Handle (la poignée) de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background: #000000; /* Couleur de la poignée */
+  border-radius: 3px; /* Ajout du border radius */
+}
+
+/* Handle on hover (la poignée lorsqu'on survole) */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; /* Couleur de la poignée au survol */
+}
+
