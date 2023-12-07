@@ -1,6 +1,13 @@
 body {
   background-color: #ffffff;
+  
 }
+
+/* styles.css */
+.sneakers-page {
+  margin-bottom: 150px; /* Adjust the value as needed */
+}
+
 
 .color-#8C3A41 h3 {
   color: #000000;
@@ -80,6 +87,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
     
   
     @media (max-width: 768px) {
