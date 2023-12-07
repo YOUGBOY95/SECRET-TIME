@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from '../components/Succès.png';
+import logo from '../components/Logo-secret-time.png';
 import './styles.css';
 
 const Accueil = () => {

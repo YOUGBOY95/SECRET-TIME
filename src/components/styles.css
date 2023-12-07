@@ -205,39 +205,42 @@ body {
 
  
 
-      .presentation-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: 80vh;
-        justify-content: center; /* Centrer horizontalement le contenu */
-        align-items: center; /* Centrer verticalement le contenu */
-      }
-      
-      .logo-container {
-        text-align: center;
-      }
-      
-      .logo {
-        max-width: 100%;
-        height: auto;
-      }
-      
-      .description-container {
-        padding: 20px;
-        text-align: center; /* Centrer le texte en version desktop et mobile */
-      }
-      
-      @media (max-width: 768px) {
         .presentation-container {
-          grid-template-columns: 1fr;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          height: 80vh; /* Ajuste la hauteur selon vos besoins */
+          justify-content: center; /* Centrer horizontalement le contenu */
+          align-items: center; /* Centrer verticalement le contenu */
         }
-      
+        
         .logo-container {
           text-align: center;
-          max-width: 30%;
         }
-      }
-      
+        
+        .logo {
+          max-width: 100%;
+          height: auto;
+        }
+        
+        .description-container {
+          padding: 20px;
+          text-align: center; /* Centrer le texte en version desktop et mobile */
+        }
+        
+        @media (max-width: 768px) {
+          .presentation-container {
+            grid-template-columns: 1fr; /* Passe à une seule colonne en version mobile */
+            height: 75vh; /* Ajuste la hauteur en version mobile selon vos besoins */
+          }
+        
+          .logo-container {
+            text-align: center; /* Ajuste le texte au centre en version mobile */
+            max-width: 100%; /* Assure que le logo prend toute la largeur disponible */
+            margin-top: 20px; /* Ajoute une marge en haut pour séparer le logo du texte en version mobile */
+          }
+        }
+        
+        
 
       .bottom-text {
         position: fixed;
@@ -346,4 +349,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #000000; /* Couleur de la poignée au survol */
 }
+
+
 
