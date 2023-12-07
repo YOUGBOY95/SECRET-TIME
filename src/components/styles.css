@@ -92,7 +92,7 @@ body {
   
     @media (max-width: 768px) {
       /* Version mobile */
-      top: 4rem;
+      top: 6rem;
     }
   
     @media (min-width: 769px) {
@@ -185,7 +185,7 @@ body {
     .texte-drops {
       position: absolute;
       top: 7rem;
-      left:  5rem;
+      left:  2.5rem;
       font-size: 30px;
       color: #000000;
       }

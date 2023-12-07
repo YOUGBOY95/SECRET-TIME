@@ -87,6 +87,4 @@ export const drops_data = [
     colorName: '#D8BFD8',
     imagePath: '/images/New Balance 550 Rich Paul Forever Yours.png',
   },
-  
-  
 ];
