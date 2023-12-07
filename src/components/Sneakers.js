@@ -23,7 +23,7 @@ function App() {
     <div>
       <div className="resell-buttons">
         <select value={selectedResell} onChange={(e) => handleResellFilter(e.target.value)}>
-          <option value="">-- DISPONIBILITÉ  --</option>
+          <option value="">-- VOIR TOUT --</option>
           {uniqueResellValues.map((value) => (
             <option key={value} value={value}>
               {value}

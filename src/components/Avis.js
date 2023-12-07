@@ -34,6 +34,7 @@ const Avis = () => {
       <section className="texte-avis">
         <h1> AVIS CLIENTS 🤝​ </h1>
       </section>
+      <br></br>
       <section className="avis-container">
         {avis.map((avis) => (
           <div key={avis.id} className="avis-block">

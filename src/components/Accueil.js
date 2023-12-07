@@ -33,7 +33,7 @@ const Accueil = () => {
             titleElement,
             null,
             <>
-              ✨ ​Bienvenue chez <span style={{ color: colors[colorIndex] }}>SECRET-TIME</span> ! ✨​
+               ​ Bienvenue chez <span style={{ color: colors[colorIndex] }}>SECRET-TIME</span> !​ ✨
             </>
           )}
           <br></br>
