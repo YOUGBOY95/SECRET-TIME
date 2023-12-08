@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  margin-bottom: 40px;
   
 }
 
@@ -267,7 +268,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 15px;
   
 }
 
@@ -282,7 +283,7 @@ body {
   border: 2px solid #000000;
   border-radius: 10px;
   padding: 20px;
-  margin: 15px;
+  margin: 20px;
   max-width: 300px;
   text-align: center;
   background-color: #fff;
@@ -310,7 +311,7 @@ body {
 
 .texte-avis {
   text-align: center; /* Centre le texte à l'intérieur de la section */
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* Ajoutez des styles supplémentaires selon vos besoins */

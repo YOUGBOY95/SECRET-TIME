@@ -82,9 +82,17 @@ export const drops_data = [
   {
     id: 12,
     brandName: 'New Balance 550 Rich Paul Forever Yours (Taille 40.5)',
-    modelName: 'New Balance 550 Rich Paul Forever Yours 🌸​',
+    modelName: 'New Balance 550 Rich Paul 🌸​',
     resellIndex: 'DISPONIBLE',
     colorName: '#D8BFD8',
     imagePath: '/images/New Balance 550 Rich Paul Forever Yours.png',
+  }, 
+  {
+    id: 13,
+    brandName: 'Air jordan 4 Red Cement (Taille 42)',
+    modelName: 'Air jordan 4 Red Cement​ 🔥​',
+    resellIndex: 'DISPONIBLE',
+    colorName: '#FF0000',
+    imagePath: '/images/Air jordan 4 Red Cement.png',
   },
 ];

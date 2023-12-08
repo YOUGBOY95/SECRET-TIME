@@ -197,3 +197,15 @@ button {
   color: #75bbc0;
 }
 
+.nav-links li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links li svg {
+  margin-right: 8px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+
